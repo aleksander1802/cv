@@ -19,7 +19,7 @@ import Circles from '@/components/Circles';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/variants';
 import { InfoItem } from '@/models/types';
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 
 const aboutData: { title: string; info: InfoItem[] }[] = [
 	{
@@ -173,7 +173,7 @@ const About = () => {
 						iusto.
 					</motion.p>
 
-					<motion.div
+					{/* <motion.div
 						variants={fadeIn('right', 0.6)}
 						initial="hidden"
 						animate="show"
@@ -194,7 +194,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-					</motion.div>
+					</motion.div> */}
 				</div>
 
 				<motion.div

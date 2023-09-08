@@ -2,8 +2,8 @@ import {
 	HiHome,
 	HiUser,
 	HiViewColumns,
-	HiRectangleGroup,
-	HiChatBubbleBottomCenterText,
+	HiRectangleGroup,	
+	HiDocumentCheck,
 	HiEnvelope,
 } from 'react-icons/hi2';
 import Link from 'next/link';
@@ -12,12 +12,12 @@ import { useRouter } from 'next/router';
 export const navData = [
 	{ name: 'home', path: '/', icon: <HiHome /> },
 	{ name: 'about', path: '/about', icon: <HiUser /> },
-	{ name: 'services', path: '/services', icon: <HiRectangleGroup /> },
-	{ name: 'work', path: '/work', icon: <HiViewColumns /> },
+	{ name: 'projects', path: '/projects', icon: <HiRectangleGroup /> },
+	{ name: 'works', path: '/works', icon: <HiViewColumns /> },
 	{
-		name: 'testimonials',
-		path: '/testimonials',
-		icon: <HiChatBubbleBottomCenterText />,
+		name: 'sertificates',
+		path: '/sertificates',
+		icon: <HiDocumentCheck />,
 	},
 	{
 		name: 'contact',
@@ -37,7 +37,7 @@ const Nav = () => {
 						<Link
 							className={`${
 								link.path === pathname && 'text-accent'
-							} relative flex items-center hover:text-accent transition-all duration-300`}
+							} relative flex items-center group hover:text-accent transition-all duration-300`}
 							href={link.path}
 							key={index}
 						>
