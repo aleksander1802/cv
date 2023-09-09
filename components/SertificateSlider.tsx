@@ -27,7 +27,7 @@ const serviceData = [
 	},
 	{
 		icon: <RxReader />,
-		title: 'Enlish B2',
+		title: 'English B2',
 		link: 'https://efset.org/cert/JMcBW1',
 		description: 'Level of English is 54/100 on the EF SET score scale.',
 	},

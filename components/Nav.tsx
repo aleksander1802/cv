@@ -10,17 +10,17 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 export const navData = [
-	{ name: 'home', path: '/', icon: <HiHome /> },
-	{ name: 'about', path: '/about', icon: <HiUser /> },
-	{ name: 'projects', path: '/projects', icon: <HiRectangleGroup /> },
-	{ name: 'works', path: '/works', icon: <HiViewColumns /> },
+	{ name: 'главная', path: '/', icon: <HiHome /> },
+	{ name: 'информация', path: '/about', icon: <HiUser /> },
+	{ name: 'проекты', path: '/projects', icon: <HiRectangleGroup /> },
+	{ name: 'работы', path: '/works', icon: <HiViewColumns /> },
 	{
-		name: 'sertificates',
+		name: 'сертификаты',
 		path: '/sertificates',
 		icon: <HiDocumentCheck />,
 	},
 	{
-		name: 'contact',
+		name: 'контакты',
 		path: '/contact',
 		icon: <HiEnvelope />,
 	},

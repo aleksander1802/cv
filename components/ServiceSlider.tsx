@@ -1,11 +1,7 @@
-import {
-	RxCrop,
-	RxPencil2,
-	RxDesktop,
-	RxReader,
-	RxRocket,
-	RxArrowTopRight,
-} from 'react-icons/rx';
+import { RxArrowTopRight } from 'react-icons/rx';
+import { BsApple } from 'react-icons/bs';
+import { FaImdb } from 'react-icons/fa';
+import { BiLogoGraphql } from 'react-icons/bi';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination } from 'swiper';
 import 'swiper/css';
@@ -14,29 +10,28 @@ import 'swiper/css/pagination';
 
 const serviceData = [
 	{
-		icon: <RxCrop />,
-		title: 'Branding',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		icon: <BsApple />,
+		title: 'Online store',
+		description:
+			'Учебный проект онлайн-магазина продукции Apple. Написан в рамках курса по Javascript/Front-end.',
+		link: 'https://kornienkokostia.github.io/online-store/#main',
+		team: 2,
 	},
 	{
-		icon: <RxPencil2 />,
-		title: 'Design',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		icon: <FaImdb />,
+		title: 'IMDb',
+		description:
+			'Клон сайта с крупнейшей в мире базой данных о кинематографе. Написан в рамках курса по React.',
+		link: 'https://imdb-rsclone.netlify.app/',
+		team: 3,
 	},
 	{
-		icon: <RxDesktop />,
-		title: 'Development',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-	},
-	{
-		icon: <RxReader />,
-		title: 'Copywriting',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-	},
-	{
-		icon: <RxRocket />,
-		title: 'SEO',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		icon: <BiLogoGraphql />,
+		title: 'GraphiQL',
+		description:
+			'GraphiQL - это игровая площадка/IDE для запросов GraphQL. Финальный проект в рамках курса по React.',
+		link: 'https://graphiql-task.netlify.app/',
+		team: 3,
 	},
 ];
 
@@ -46,10 +41,6 @@ const ServiceSlider = () => {
 			breakpoints={{
 				320: {
 					slidesPerView: 1,
-					spaceBetween: 15,
-				},
-				640: {
-					slidesPerView: 3,
 					spaceBetween: 15,
 				},
 			}}
@@ -63,19 +54,31 @@ const ServiceSlider = () => {
 			{serviceData.map((item, index) => {
 				return (
 					<SwiperSlide key={index}>
-						<div className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-6 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300">
-							<div className="text-accent text-lg mb-2">{item.icon}</div>
+						<a
+							href={item.link}
+							target="_blank"
+							className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-6 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 max-sm:text-[18px] max-sm:p-3"
+						>
+							<div className="text-accent text-lg mb-2">
+								{item.icon}
+							</div>
 
 							<div className="mb-2">
-                                <div className="mb-2 text-lg">{item.title}</div>
-								<p className="max-w-[350px] leading-normal">
+								<div className="mb-2 text-lg">{item.title}</div>
+								<div className='text-sm'>
+									<span className="text-accent ">
+										Команда:
+									</span>{' '}
+									{item.team} разработчика
+								</div>
+								<p className="leading-normal">
 									{item.description}
 								</p>
 							</div>
-                            <div className="text-3xl ">
+							<div className="text-3xl max-sm:hidden">
 								<RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
 							</div>
-						</div>
+						</a>
 					</SwiperSlide>
 				);
 			})}

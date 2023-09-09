@@ -4,7 +4,7 @@ import Circles from '@/components/Circles';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/variants';
 
-const Services = () => {
+const Projects = () => {
 	return (
 		<div className="h-full bg-primary/30 py-36 flex items-center">
 			<Circles />
@@ -18,8 +18,8 @@ const Services = () => {
 							exit="hidden"
 							className="h2 xl:mt-8"
 						>
-							My <span className="text-accent">team</span>{' '}
-							projects<span className="text-accent">.</span>
+							Мои <span className="text-accent">командные</span>{' '}
+							проекты<span className="text-accent">.</span>
 						</motion.h2>
 						<motion.p
 							variants={fadeIn('up', 0.4)}
@@ -28,11 +28,7 @@ const Services = () => {
 							exit="hidden"
 							className="mb-4 max-w-[400px] mx-auto"
 						>
-							Lorem, ipsum dolor sit amet consectetur adipisicing
-							elit. Consequuntur a iusto nulla cumque quidem
-							tempore id dolorum amet cupiditate. Soluta ratione
-							similique tempora sit repudiandae quia ex eos
-							dolorum corrupti.
+							Каждый человек обладает сильными и слабыми сторонами и умениями. Умение работать в команде для меня является наивысшим приоритетом так как предоставляет возможность обмениваться знаниями и опытом.
 						</motion.p>
 					</div>
 					<motion.div
@@ -40,7 +36,7 @@ const Services = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="w-full xl:max-w-[65%]"
+						className="w-full xl:max-w-[65%] flex items-center"
 					>
 						<ServiceSlider />
 					</motion.div>
@@ -51,4 +47,4 @@ const Services = () => {
 	);
 };
 
-export default Services;
+export default Projects;

@@ -18,7 +18,8 @@ const Sertificates = () => {
 							exit="hidden"
 							className="h2 xl:mt-8"
 						>
-							My <span className="text-accent">sertificates</span>{' '}
+							Мои{' '}
+							<span className="text-accent">сертификаты.</span>{' '}
 						</motion.h2>
 						<motion.p
 							variants={fadeIn('up', 0.4)}
@@ -27,11 +28,11 @@ const Sertificates = () => {
 							exit="hidden"
 							className="mb-4 max-w-[400px] mx-auto"
 						>
-							Lorem, ipsum dolor sit amet consectetur adipisicing
-							elit. Consequuntur a iusto nulla cumque quidem
-							tempore id dolorum amet cupiditate. Soluta ratione
-							similique tempora sit repudiandae quia ex eos
-							dolorum corrupti.
+							Сертификаты получены в ходе обучения на
+							платформе The Rolling Scopes School. RS School — это
+							бесплатная образовательная программа, проводимая
+							сообществом разработчиков The Rolling Scopes с 2013
+							года. Так же имеется сертификат моего уровня владения английским.
 						</motion.p>
 					</div>
 					<motion.div

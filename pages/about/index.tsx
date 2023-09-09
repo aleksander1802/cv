@@ -1,96 +1,81 @@
-import {
-	FaHtml5,
-	FaCss3,
-	FaJs,
-	FaReact,
-	FaWordpress,
-	FaFigma,
-} from 'react-icons/fa';
-
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from 'react-icons/fa';
 import {
 	SiNextdotjs,
-	SiFramer,
-	SiAdobexd,
+	SiRedux,
+	SiTypescript,
 	SiAdobephotoshop,
+	SiGraphql,
+	SiPrisma,
+	SiFastify,
+	SiPostgresql,
+	SiDocker,
 } from 'react-icons/si';
-
 import React, { useState } from 'react';
 import Circles from '@/components/Circles';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/variants';
 import { InfoItem } from '@/models/types';
-// import CountUp from 'react-countup';
 
 const aboutData: { title: string; info: InfoItem[] }[] = [
 	{
-		title: 'skills',
+		title: 'навыки',
 		info: [
 			{
-				title: 'Web Development',
+				title: 'Front-end',
 				icons: [
-					<FaHtml5 key="html5" />,
+					<FaHtml5
+						values="dws"
+						key="html5"
+					/>,
 					<FaCss3 key="css3" />,
 					<FaJs key="js" />,
+					<SiTypescript key="typescript" />,
 					<FaReact key="react" />,
+					<SiRedux key="redux" />,
+				],
+			},
+			{
+				title: 'Back-end',
+				icons: [
 					<SiNextdotjs key="nextjs" />,
-					<SiFramer key="framer" />,
-					<FaWordpress key="wordpress" />,
+					<SiFastify key="fastify" />,
+					<SiPrisma key="prisma" />,
+					<SiGraphql key="grahpql" />,
+					<SiPostgresql key="postgresql" />,
+					<SiDocker key="docker" />,
 				],
 			},
 			{
 				title: 'UI/UX Design',
 				icons: [
 					<FaFigma key="figma" />,
-					<SiAdobexd key="adobexd" />,
 					<SiAdobephotoshop key="photoshop" />,
 				],
 			},
 		],
 	},
 	{
-		title: 'awards',
+		title: 'образование',
 		info: [
 			{
-				title: 'Webby Awards - Honoree',
-				stage: '2011 - 2012',
+				title: 'Право - МГУ (Мариуполь) - Бакалавр',
+				stage: '2012 - 2016',
 			},
 			{
-				title: 'Adobe Design Achievement Awards - Finalist',
-				stage: '2009 - 2010',
-			},
-		],
-	},
-	{
-		title: 'experience',
-		info: [
-			{
-				title: 'UX/UI Designer - XYZ Company',
-				stage: '2012 - 2023',
+				title: 'Право - МГУ (Мариуполь) - Магистр',
+				stage: '2018',
 			},
 			{
-				title: 'Web Developer - ABC Agency',
-				stage: '2010 - 2012',
+				title: 'JAVASCRIPT/FRONT-END - The Rolling Scopes School',
+				stage: '2023',
 			},
 			{
-				title: 'Intern - DEF Corporation',
-				stage: '2008 - 2010',
-			},
-		],
-	},
-	{
-		title: 'credentials',
-		info: [
-			{
-				title: 'Web Development - ABC University, LA, CA',
-				stage: '2011',
+				title: 'REACT - The Rolling Scopes School',
+				stage: '2023',
 			},
 			{
-				title: 'Computer Science Diploma - AV Technical Institute',
-				stage: '2009',
-			},
-			{
-				title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-				stage: '2006',
+				title: 'NODEJS - The Rolling Scopes School',
+				stage: '2023',
 			},
 		],
 	},
@@ -155,8 +140,9 @@ const About = () => {
 						exit="hidden"
 						className="h2"
 					>
-						Captivating <span className="text-accent">stories</span>{' '}
-						birth magnificent designs.
+						Моя <span className="text-accent">мотивация</span>{' '}
+						
+						<span className="text-accent">.</span>
 					</motion.h2>
 
 					<motion.p
@@ -166,35 +152,11 @@ const About = () => {
 						exit="hidden"
 						className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
 					>
-						Lorem ipsum dolor, sit amet consectetur adipisicing
-						elit. Ipsa, officiis consectetur ut consequuntur quaerat
-						veniam nisi suscipit animi nobis maxime odio dicta
-						dolores eaque commodi ea aspernatur, et praesentium
-						iusto.
+						Стремление к созданию креативных и функциональных
+						веб-сайтов и приложений с красивым, адаптивным,
+						интуитивно понятным и восхитительным пользовательским
+						интерфейсом всегда мотивировало меня.
 					</motion.p>
-
-					{/* <motion.div
-						variants={fadeIn('right', 0.6)}
-						initial="hidden"
-						animate="show"
-						exit="hidden"
-						className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8"
-					>
-						<div className="flex flex-1 xl:gap-x-6">
-							<div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-								<div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-									<CountUp
-										start={0}
-										end={1}
-									/>{' '}
-									+
-								</div>
-								<div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-									Years of experience
-								</div>
-							</div>
-						</div>
-					</motion.div> */}
 				</div>
 
 				<motion.div

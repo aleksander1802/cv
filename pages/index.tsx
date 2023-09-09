@@ -17,8 +17,8 @@ const Home = () => {
 						exit="hidden"
 						className="h1"
 					>
-						Transforming Ideas <br /> Into{' '}
-						<span className="text-accent">Digital Reality</span>
+						Преобразовать идеи <br /> в{' '}
+						<span className="text-accent">Цифровую Реальность</span>
 					</motion.h1>
 					<motion.p
 						variants={fadeIn('down', 0.3)}
@@ -27,10 +27,7 @@ const Home = () => {
 						exit="hidden"
 						className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
 					>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Officiis, possimus. Impedit doloremque sint sed,
-						accusamus quam obcaecati? Sapiente atque ab dignissimos
-						modi quibusdam id quo, laborum quae ducimus sit iusto!
+						Меня зовут Александр Руденко. Я начинающий веб-разработчик. Данная индустрия постоянно меняется и вдохновляет на поиск новых решений. В мире веб-разработки нет предела совершенству, и это непередаваемо захватывает. В этом бескрайнем океане технологий и идей я нахожу свою страсть и место!
 					</motion.p>
 					<div className="flex justify-center xl:hidden relative">
 						<ProjectsBtn />
