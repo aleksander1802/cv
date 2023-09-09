@@ -140,7 +140,7 @@ const About = () => {
 						exit="hidden"
 						className="h2"
 					>
-						Моя <span className="text-accent">мотивация</span>{' '}
+						Моя <span className="text-accent">мотивация</span>
 						
 						<span className="text-accent">.</span>
 					</motion.h2>
