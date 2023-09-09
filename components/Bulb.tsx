@@ -7,7 +7,7 @@ const Bulb = () => {
     w-[200px] xl:w-[260px]"
 		>
 			<Image
-				src={'/bulb.png'}
+				src={'/nextjs-github-pages/bulb.png'}
 				width={260}
 				height={200}
 				className="w-full h-full"

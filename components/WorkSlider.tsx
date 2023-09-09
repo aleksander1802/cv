@@ -12,28 +12,28 @@ const workSlides = {
 			images: [
 				{
 					title: 'Пет проект',
-					path: '/thumb1.jpg',
+					path: '/nextjs-github-pages/thumb1.jpg',
 					description:
 						'Небольшой пет-проект, аналог всем известного портала Habr',
 					link: 'https://meek-panda-9e5407.netlify.app/',
 				},
 				{
 					title: 'GSAP',
-					path: '/thumb2.jpg',
+					path: '/nextjs-github-pages/thumb2.jpg',
 					description:
 						'Демонстрация возможностей библиотеки gsap с плавным скроллом.',
 					link: 'https://aleksander1802.github.io/gsap_example/',
 				},
 				{
 					title: 'Online zoo',
-					path: '/thumb3.jpg',
+					path: '/nextjs-github-pages/thumb3.jpg',
 					description:
 						'Учебный проект про важность поддержки братьев наших меньших.',
 					link: 'https://aleksander1802.github.io/online-zoo/pages/main/',
 				},
 				{
 					title: 'Song bird',
-					path: '/thumb4.jpg',
+					path: '/nextjs-github-pages/thumb4.jpg',
 					description:
 						'Викторина в которой нужно угадать птицу по её пению.',
 					link: 'https://aleksander1802.github.io/songbird/',
@@ -45,28 +45,28 @@ const workSlides = {
 			images: [
 				{
 					title: 'Battleship',
-					path: '/thumb5.jpg',
+					path: '/nextjs-github-pages/thumb5.jpg',
 					description:
 						'Игра в морской бой. Web-socket. Ветка develop содержит readme по запуску.',
 					link: 'https://github.com/aleksander1802/battleship/pull/1',
 				},
 				{
 					title: 'Graphql',
-					path: '/thumb6.jpg',
+					path: '/nextjs-github-pages/thumb6.jpg',
 					description:
 						'Таска по переводу REST на рельсы GrahpQL, решение n+1, ограничение сложности запросов.',
 					link: 'https://github.com/aleksander1802/rsschool-nodejs-task-graphql/pull/1',
 				},
 				{
 					title: 'Home Library Service',
-					path: '/thumb7.jpg',
+					path: '/nextjs-github-pages/thumb7.jpg',
 					description:
 						'Каждый PR содержит часть таска. Необходимо было создать домашнюю музыкальную библиотеку.',
 					link: 'https://github.com/aleksander1802/nodejs2023Q2-service/pulls',
 				},
 				{
 					title: 'CRUD API',
-					path: '/thumb8.jpg',
+					path: '/nextjs-github-pages/thumb8.jpg',
 					description:
 						'Из названия понятно что необходимо было реализовать простой CRUD API, используя базу данных в памяти.',
 					link: 'https://github.com/aleksander1802/crud_api/pull/1',
