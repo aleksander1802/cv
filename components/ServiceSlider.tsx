@@ -4,9 +4,8 @@ import { FaImdb } from 'react-icons/fa';
 import { BiLogoGraphql } from 'react-icons/bi';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css';
+require('swiper/swiper-bundle.css');
 
 const serviceData = [
 	{

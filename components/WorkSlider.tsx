@@ -2,9 +2,8 @@ import { BsArrowRight } from 'react-icons/bs';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import Image from 'next/image';
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css';
+require('swiper/swiper-bundle.css');
 
 const workSlides = {
 	slides: [

@@ -2,9 +2,8 @@ import { RxReader, RxArrowTopRight } from 'react-icons/rx';
 import { FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination } from 'swiper';
-import 'swiper/swiper.css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css';
+require('swiper/swiper-bundle.css');
 
 const serviceData = [
 	{

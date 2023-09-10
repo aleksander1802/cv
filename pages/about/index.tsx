@@ -132,7 +132,7 @@ const About = () => {
 			<Circles />
 
 			<div className="container px-0 mx-auto h-full flex flex-col items-start xl:flex-row gap-x-6">
-				<div className="flex-1 flex flex-col justify-start">
+				<div className="flex-1 flex flex-col justify-start text-center lg:text-center xl:text-left mb-4">
 					<motion.h2
 						variants={fadeIn('right', 0.2)}
 						initial="hidden"
@@ -140,9 +140,7 @@ const About = () => {
 						exit="hidden"
 						className="h2"
 					>
-						Моя <span className="text-accent">мотивация</span>
-						
-						<span className="text-accent">.</span>
+						Моя <span className="text-accent">мотивация.</span>
 					</motion.h2>
 
 					<motion.p
@@ -150,7 +148,7 @@ const About = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+						className="xl:max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
 					>
 						Стремление к созданию креативных и функциональных
 						веб-сайтов и приложений с красивым, адаптивным,
