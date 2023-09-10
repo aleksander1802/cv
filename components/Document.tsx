@@ -7,7 +7,7 @@ const Document = () => {
     w-[200px] xl:w-[260px]"
 		>
 			<Image
-				src={'/nextjs-github-pages/document.png'}
+				src={'/cv/document.png'}
 				width={260}
 				height={200}
 				className="w-full h-full"
