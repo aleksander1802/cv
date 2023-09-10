@@ -47,6 +47,7 @@ const SertificateSlider = () => {
 				},
 			}}
 			freeMode={true}
+			direction="horizontal"
 			pagination={{
 				clickable: true,
 			}}
