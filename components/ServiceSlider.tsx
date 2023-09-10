@@ -4,8 +4,6 @@ import { FaImdb } from 'react-icons/fa';
 import { BiLogoGraphql } from 'react-icons/bi';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination } from 'swiper';
-import 'swiper/swiper-bundle.css';
-require('swiper/swiper-bundle.css');
 
 const serviceData = [
 	{
@@ -64,7 +62,7 @@ const ServiceSlider = () => {
 
 							<div className="mb-2">
 								<div className="mb-2 text-lg">{item.title}</div>
-								<div className='text-sm'>
+								<div className="text-sm">
 									<span className="text-accent ">
 										Команда:
 									</span>{' '}

@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(swiper/swiper-bundle.css);
 
 .translate-z-0 {
 	transform: translateZ(0px);
