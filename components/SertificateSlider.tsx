@@ -49,7 +49,7 @@ const SertificateSlider = () => {
 				clickable: true,
 			}}
 			modules={[FreeMode, Pagination]}
-			className="h-[240px] sm:h-[340px]"
+			className="h-[220px] sm:h-[340px] mx-auto z-20"
 		>
 			{serviceData.map((item, index) => {
 				return (

@@ -1,6 +1,6 @@
 import ParticlesContainer from '@/components/ParticlesContainer';
 import ProjectsBtn from '@/components/ProjectsBtn';
-import Avatar from '@/components/Avatar';
+// import Avatar from '@/components/Avatar';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/variants';
 
@@ -55,7 +55,7 @@ const Home = () => {
 					transition={{ duration: 1, ease: 'easeInOut' }}
 					className="w-full h-full max-w-[678px] max-h-[737px] absolute -bottom-32 lg:bottom-0 lg:right-0"
 				>
-					<Avatar />
+					{/* <Avatar /> */}
 				</motion.div>
 			</div>
 		</div>
