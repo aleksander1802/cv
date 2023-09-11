@@ -227,7 +227,7 @@ const About = () => {
 					initial="hidden"
 					animate="show"
 					exit="hidden"
-					className="flex flex-col justify-start max-xl:items-center w-full xl:max-w-[48%] max-sm:min-h-[390px]"
+					className="flex flex-col justify-start max-xl:items-center w-full xl:max-w-[48%] max-sm:min-h-[390px] z-20"
 				>
 					<div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 ">
 						{data}

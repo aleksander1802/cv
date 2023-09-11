@@ -54,7 +54,7 @@ const ServiceSlider = () => {
 						<a
 							href={item.link}
 							target="_blank"
-							className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-6 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 max-sm:text-[18px] max-sm:p-3 max-sm:h-[218px]"
+							className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-6 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 max-sm:text-[18px] max-sm:p-3 max-sm:h-[218px] z-20"
 						>
 							<div className="text-accent text-lg mb-2">
 								{item.icon}
