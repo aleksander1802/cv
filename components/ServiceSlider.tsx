@@ -46,7 +46,7 @@ const ServiceSlider = () => {
 				clickable: true,
 			}}
 			modules={[FreeMode, Pagination]}
-			className="h-[240px] sm:h-[340px]"
+			className="h-[340px] max-sm:h-[280px]"
 		>
 			{serviceData.map((item, index) => {
 				return (
@@ -54,7 +54,7 @@ const ServiceSlider = () => {
 						<a
 							href={item.link}
 							target="_blank"
-							className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-6 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 max-sm:text-[18px] max-sm:p-3"
+							className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-6 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 max-sm:text-[18px] max-sm:p-3 max-sm:h-[218px]"
 						>
 							<div className="text-accent text-lg mb-2">
 								{item.icon}

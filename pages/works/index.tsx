@@ -16,16 +16,22 @@ const Work = () => {
 							animate="show"
 							exit="hidden"
 							className="h2 xl:mt-12"
-						> Мои <span className="text-accent">работы.</span>
+						>
+							Мои <span className="text-accent">работы.</span>
 						</motion.h2>
 						<motion.p
 							variants={fadeIn('up', 0.4)}
 							initial="hidden"
 							animate="show"
 							exit="hidden"
-							className="mb-4 xl:max-w-[400px] text-center xl:text-left mx-auto lg:mx-0"
+							className="mb-4 xl:max-w-[400px] max-sm:text-[18px] text-center xl:text-left mx-auto lg:mx-0"
 						>
-							Мои работы не только дали мне ценный опыт, но и позволили понять, как важна практика и творческий подход к решению задач. Моя страсть к веб-разработке исходит из желания преобразовывать абстрактные идеи в интерактивные продукты, которые могут вдохновлять и удивлять.
+							Мои работы дали мне ценный опыт и позволили понять,
+							как важна практика и творческий подход к решению
+							задач. Моя страсть к веб-разработке исходит из
+							желания преобразовывать абстрактные идеи в
+							интерактивные продукты, которые могут вдохновлять и
+							удивлять.
 						</motion.p>
 					</div>
 					<motion.div
@@ -38,7 +44,7 @@ const Work = () => {
 						<WorkSlider />
 					</motion.div>
 				</div>
-			</div>			
+			</div>
 		</div>
 	);
 };

@@ -1,52 +1,52 @@
 import Link from 'next/link';
 import {
-	RiYoutubeLine,
 	RiTelegramLine,
 	RiDiscordLine,
 	RiSteamLine,
 	RiGithubLine,
 } from 'react-icons/ri';
-import {} from 'react-icons/';
+import { SiCodewars } from 'react-icons/si';
 
 const Socials = () => {
 	const clazz = 'hover:text-accent transition-all duration-300';
 	return (
 		<div className="flex items-center gap-x-5 text-lg">
 			<Link
-				href={'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}
-				target='_blank'
-				className={clazz}
-			>
-				<RiYoutubeLine />
-			</Link>
-			<Link
 				href={'https://t.me/shadow26627'}
-				target='_blank'
+				target="_blank"
 				className={clazz}
 			>
-				<RiTelegramLine />
+				<RiTelegramLine title="Telegram" />
 			</Link>
 			<Link
 				href={'https://github.com/aleksander1802'}
-				target='_blank'
+				target="_blank"
 				className={clazz}
 			>
-				<RiGithubLine />
+				<RiGithubLine title="GitHub" />
 			</Link>
-
 			<Link
-				href={'https://cdndelivr.com/sticker/a5b0c3279ec34d9c.png'}
-				target='_blank'
+				href={
+					'https://www.codewars.com/users/rsschool_9e8ed404e8877bec'
+				}
+				target="_blank"
 				className={clazz}
 			>
-				<RiDiscordLine />
+				<SiCodewars title="Codewars" />
+			</Link>
+			<Link
+				href={'https://discord.com/users/255762280824832000'}
+				target="_blank"
+				className={clazz}
+			>
+				<RiDiscordLine title="Discord" />
 			</Link>
 			<Link
 				href={'https://steamcommunity.com/id/shadow26627/'}
-				target='_blank'
+				target="_blank"
 				className={clazz}
 			>
-				<RiSteamLine />
+				<RiSteamLine title="Steam" />
 			</Link>
 		</div>
 	);

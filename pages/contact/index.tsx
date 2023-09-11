@@ -15,8 +15,8 @@ const Contact = () => {
 					className="text-center mb-12"
 				>
 					<h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-center text-white">
-						Давайте{' '}
-						<span className="text-accent">коннектиться.</span>
+						Контакты
+						<span className="text-accent">.</span>
 					</h2>
 				</motion.div>
 				<div className="flex flex-col gap-6 text-lg sm:text-xl md:text-2xl">
@@ -25,12 +25,15 @@ const Contact = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="flex items-center gap-4"
+						className="flex items-center gap-2"
 					>
 						<BsEnvelope className="text-accent text-2xl sm:text-3xl" />
 						<p className="text-white">
-							Моя почта: aleksander-18-02@
-							<span className="text-accent">yandex</span>.ru
+							aleksander-18-02@
+							<span className="text-accent font-bold">
+								yandex
+							</span>
+							.ru
 						</p>
 					</motion.div>
 					<motion.div
@@ -38,12 +41,13 @@ const Contact = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="flex items-center gap-4"
+						className="flex items-center gap-2"
 					>
 						<BsPhone className="text-accent text-2xl sm:text-3xl" />
 						<p className="text-white">
-							Мой номер телефона: +7-
-							<span className="text-accent">949</span>-707-20-53
+							+7-
+							<span className="text-accent font-bold">949</span>
+							-707-20-53
 						</p>
 					</motion.div>
 					{/* Можно и другие контакты добавить */}

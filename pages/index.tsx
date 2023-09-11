@@ -14,9 +14,9 @@ const Home = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="h1"
+						className="h1 z-20 max-sm:mb-1 max-sm:mt-5"
 					>
-						Преобразовать идеи <br /> в{' '}
+						Воплотить идеи <br /> в{' '}
 						<span className="text-accent">Цифровую Реальность</span>
 					</motion.h1>
 					<motion.p
@@ -24,11 +24,13 @@ const Home = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+						className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 z-20 max-sm:mb-5"
 					>
-						Меня зовут Александр Руденко. Я начинающий веб-разработчик. Данная индустрия постоянно меняется и вдохновляет на поиск новых решений. В мире веб-разработки нет предела совершенству, и это непередаваемо захватывает. В этом бескрайнем океане технологий и идей я нахожу свою страсть и место!
+						Меня зовут Александр Руденко. Начинающий
+						веб-разработчик. Данная индустрия постоянно меняется и
+						вдохновляет на поиск новых решений.
 					</motion.p>
-					<div className="flex justify-center xl:hidden relative">
+					<div className="flex justify-center xl:hidden relative z-20">
 						<ProjectsBtn />
 					</div>
 					<motion.div
