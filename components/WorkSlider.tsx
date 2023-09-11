@@ -81,7 +81,7 @@ const WorkSlider = () => {
 				clickable: true,
 			}}
 			modules={[Pagination]}
-			className="h-[480px] max-sm:h-[270px] md:h-[480px] lg:h-[580px] xl:h-[500px]"
+			className="max-sm:h-[270px] md:h-[480px] lg:h-[580px] xl:h-[500px]"
 		>
 			{workSlides.slides.map((item, index) => {
 				return (
@@ -105,7 +105,7 @@ const WorkSlider = () => {
 												alt="slide"
 											/>
 											<div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
-											<div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:max-md:-translate-y-5 group-hover:xl:-translate-y-10 transition-all duration-300 text-[13px] tracking-[0.2em]">
+											<div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:max-md:-translate-y-5 group-hover:xl:-translate-y-10 transition-all duration-300 text-[13px] max-sm:text-[12px] tracking-[0.2em]">
 												<div className="flex flex-col items-center gap-x-2 text-center">
 													<div className="delay-100">
 														{image.title}
@@ -113,7 +113,7 @@ const WorkSlider = () => {
 													<div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
 														{image.description}
 													</div>
-													<div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all	duration-300 delay-200">
+													<div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all	duration-300 delay-200 max-sm:hidden ">
 														<BsArrowRight />
 													</div>
 												</div>

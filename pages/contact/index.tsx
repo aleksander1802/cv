@@ -19,7 +19,7 @@ const Contact = () => {
 						<span className="text-accent">.</span>
 					</h2>
 				</motion.div>
-				<div className="flex flex-col gap-6 text-lg sm:text-xl md:text-2xl">
+				<div className="flex flex-col gap-6 text-lg sm:text-xl md:text-2xl items-center">
 					<motion.div
 						variants={fadeIn('up', 0.3)}
 						initial="hidden"
