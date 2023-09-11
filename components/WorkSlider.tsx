@@ -37,7 +37,7 @@ const workSlides = {
 				},
 			],
 		},
-		
+
 		{
 			images: [
 				{
@@ -81,12 +81,12 @@ const WorkSlider = () => {
 				clickable: true,
 			}}
 			modules={[Pagination]}
-			className="h-[480px] md:h-[480px] lg:h-[580px] xl:h-[500px]"
+			className="h-[480px] max-sm:h-[270px] md:h-[480px] lg:h-[580px] xl:h-[500px]"
 		>
 			{workSlides.slides.map((item, index) => {
 				return (
 					<SwiperSlide key={index}>
-						<div className="grid grid-cols-2 grid-rows-3 gap-4 cursor-pointer">
+						<div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
 							{item.images.map((image, index) => {
 								return (
 									<div

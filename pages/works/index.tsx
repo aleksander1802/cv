@@ -17,6 +17,7 @@ const Work = () => {
 							exit="hidden"
 							className="h2 xl:mt-12"
 						>
+							{' '}
 							Мои <span className="text-accent">работы.</span>
 						</motion.h2>
 						<motion.p
