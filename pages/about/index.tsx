@@ -66,6 +66,10 @@ const aboutData: { title: string; info: InfoItem[] }[] = [
 						key="redux"
 						title="Redux, RTK"
 					/>,
+					<SiNextdotjs
+						key="nextjs"
+						title="Next.js"
+					/>,
 					<SiVite
 						key="vite"
 						title="Vite"
@@ -79,10 +83,6 @@ const aboutData: { title: string; info: InfoItem[] }[] = [
 			{
 				title: 'Back-end',
 				icons: [
-					<SiNextdotjs
-						key="nextjs"
-						title="Next.js"
-					/>,
 					<SiNestjs
 						key="nestjs"
 						title="Nest.js"
