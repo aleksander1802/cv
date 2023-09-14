@@ -7,6 +7,7 @@ import {
 	SiGraphql,
 	SiPrisma,
 	SiFastify,
+	SiNestjs,
 	SiPostgresql,
 	SiDocker,
 	SiSass,
@@ -81,6 +82,10 @@ const aboutData: { title: string; info: InfoItem[] }[] = [
 					<SiNextdotjs
 						key="nextjs"
 						title="Next.js"
+					/>,
+					<SiNestjs
+						key="nestjs"
+						title="Nest.js"
 					/>,
 					<SiFastify
 						key="fastify"
