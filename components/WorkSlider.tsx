@@ -18,7 +18,7 @@ const workSlides = {
 					title: 'Next app router',
 					path: '/cv/router.jpg',
 					description:
-						'Проект посвящённый рейтингам с трёхуровневым меню. Используется Next.js 13 и обновлённый App router вместо Pages router',
+						'Проект посвящённый рейтингам. Содержит трёхуровневое меню. Используется Next.js 13 и обновлённый App router вместо Pages router',
 					link: 'https://next-app-router-roan.vercel.app/',
 				},
 				{
