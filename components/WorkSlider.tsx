@@ -15,17 +15,17 @@ const workSlides = {
 					link: 'https://meek-panda-9e5407.netlify.app/',
 				},
 				{
-					title: 'GSAP',
-					path: '/cv/thumb2.jpg',
+					title: 'Next app router',
+					path: '/cv/router.jpg',
 					description:
-						'Демонстрация возможностей библиотеки gsap с плавным скроллом.',
-					link: 'https://aleksander1802.github.io/gsap_example/',
+						'Проект посвящённый рейтингам с трёхуровневым меню. Используется Next.js 13 и обновлённый App router вместо Pages router',
+					link: 'https://next-app-router-roan.vercel.app/',
 				},
 				{
 					title: 'Online zoo',
 					path: '/cv/thumb3.jpg',
 					description:
-						'Учебный проект про важность поддержки братьев наших меньших.',
+						'Проект про важность поддержки братьев наших меньших.',
 					link: 'https://aleksander1802.github.io/online-zoo/pages/main/',
 				},
 				{
@@ -65,7 +65,7 @@ const workSlides = {
 					title: 'CRUD API',
 					path: '/cv/thumb8.jpg',
 					description:
-						'Из названия понятно что необходимо было реализовать простой CRUD API, используя базу данных в памяти.',
+						'Реализация простого CRUD API, используя базу данных в памяти.',
 					link: 'https://github.com/aleksander1802/crud_api/pull/1',
 				},
 			],
