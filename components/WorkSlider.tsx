@@ -8,6 +8,38 @@ const workSlides = {
 		{
 			images: [
 				{
+					title: 'Отдых в Карелии',
+					path: '/cv/karelia_cv.jpg',
+					description:
+						'Лендинговая страничка усадьбы в Карелии. Отдых на природе. Стек: Next.js и Tailwind.',
+					link: 'https://aleksander1802.github.io/karelia/',
+				},
+				{
+					title: 'Fishmania',
+					path: '/cv/fishmania_cv.jpg',
+					description:
+						'Лендинговая страничка. Презентация греческой рыбной продукции. Импорт/экмпорт продукции. Приложение поддерживает 3 языка. Стек: Next.js и Tailwind.',
+					link: 'https://fishmania.vercel.app/',
+				},
+				{
+					title: 'Angular Messenger',
+					path: '/cv/angular_cv2.jpg',
+					description:
+						'Пет-проект, мессенджер с возможностью общения в группе так и индивидуально. Создавай, удаляй группы. Доступна смена темы. База данных на Node.js. Стек: Angular',
+					link: 'https://aleksander1802.github.io/angular-messenger/',
+				},
+				{
+					title: 'Angular Youtube',
+					path: '/cv/angular_cv1.jpg',
+					description:
+						'Пет-проект, используется Youtube API. Возможность поиска видео, добавление в избранное и создание кастомных карточек. Стек: Angular',
+					link: 'https://aleksander1802.github.io/angular2023Q4/youtube',
+				},
+			],
+		},
+		{
+			images: [
+				{
 					title: 'Пет проект',
 					path: '/cv/thumb1.jpg',
 					description:
