@@ -1,5 +1,5 @@
 import { RxReader, RxArrowTopRight } from 'react-icons/rx';
-import { FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaJs, FaReact, FaNodeJs, FaAngular } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination } from 'swiper';
 
@@ -15,6 +15,12 @@ const serviceData = [
 		title: 'React',
 		link: 'https://app.rs.school/certificate/v9av4g0r',
 		description: 'The Rolling Scopes School	REACT 2023 Q1.',
+	},
+	{
+		icon: <FaAngular />,
+		title: 'Angular',
+		link: 'https://app.rs.school/certificate/zfaq8zz6',
+		description: 'The Rolling Scopes School Angular 2023 Q4.',
 	},
 	{
 		icon: <FaNodeJs />,
