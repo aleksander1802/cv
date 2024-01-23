@@ -18,7 +18,7 @@ const workSlides = {
 					title: 'Fishmania',
 					path: '/cv/fishmania_cv.jpg',
 					description:
-						'Лендинговая страничка. Презентация греческой рыбной продукции. Импорт/экмпорт продукции. Приложение поддерживает 3 языка. Стек: Next.js и Tailwind.',
+						'Лендинговая страничка. Презентация греческой рыбной продукции. Импорт/экспорт продукции. Приложение поддерживает 3 языка. Стек: Next.js и Tailwind.',
 					link: 'https://fishmania.vercel.app/',
 				},
 				{
@@ -135,6 +135,7 @@ const WorkSlider = () => {
 												width={500}
 												height={300}
 												alt="slide"
+												priority
 											/>
 											<div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
 											<div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:max-md:-translate-y-5 group-hover:xl:-translate-y-10 transition-all duration-300 text-[13px] max-sm:text-[12px] tracking-[0.2em]">
