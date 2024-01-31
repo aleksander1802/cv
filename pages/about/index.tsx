@@ -1,4 +1,11 @@
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from 'react-icons/fa';
+import {
+	FaHtml5,
+	FaCss3,
+	FaJs,
+	FaReact,
+	FaFigma,
+	FaAngular,
+} from 'react-icons/fa';
 import {
 	SiNextdotjs,
 	SiRedux,
@@ -78,6 +85,10 @@ const aboutData: { title: string; info: InfoItem[] }[] = [
 						key="webpack"
 						title="Webpack"
 					/>,
+					<FaAngular
+						key="angular"
+						title="Angular"
+					/>,
 				],
 			},
 			{
@@ -146,6 +157,10 @@ const aboutData: { title: string; info: InfoItem[] }[] = [
 			{
 				title: 'NodeJS - The Rolling Scopes School',
 				stage: '2023',
+			},
+			{
+				title: 'Angular - The Rolling Scopes School',
+				stage: '2024',
 			},
 		],
 	},
