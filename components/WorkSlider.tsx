@@ -11,7 +11,7 @@ const workSlides = {
 					title: 'Azur',
 					path: '/cv/azur.jpg',
 					description:
-						'Лендинг на Angular. Покупка, продажа, аренда недвижимости. Локализация на 4-ёх языках. Стек: Angular.',
+						'Пет-проект на Angular. Покупка, продажа, аренда недвижимости. Локализация на 4-ёх языках. Стек: Angular.',
 					link: 'https://aleksander1802.github.io/azur/',
 				},
 				{
