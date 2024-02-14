@@ -8,18 +8,18 @@ const workSlides = {
 		{
 			images: [
 				{
+					title: 'Azur',
+					path: '/cv/azur.jpg',
+					description:
+						'Лендинг на Angular. Покупка, продажа, аренда недвижимости. Локализация на 4-ёх языках. Стек: Angular.',
+					link: 'https://aleksander1802.github.io/azur/',
+				},
+				{
 					title: 'Отдых в Карелии',
 					path: '/cv/karelia_cv.jpg',
 					description:
 						'Лендинговая страничка усадьбы в Карелии. Отдых на природе. Стек: Next.js и Tailwind.',
 					link: 'https://aleksander1802.github.io/karelia/',
-				},
-				{
-					title: 'Fishmania',
-					path: '/cv/fishmania_cv.jpg',
-					description:
-						'Лендинговая страничка. Презентация греческой рыбной продукции. Импорт/экспорт продукции. Приложение поддерживает 3 языка. Стек: Next.js и Tailwind.',
-					link: 'https://fishmania.vercel.app/',
 				},
 				{
 					title: 'Angular Messenger',
@@ -54,11 +54,11 @@ const workSlides = {
 					link: 'https://next-app-router-roan.vercel.app/',
 				},
 				{
-					title: 'Online zoo',
-					path: '/cv/thumb3.jpg',
+					title: 'Fishmania',
+					path: '/cv/fishmania_cv.jpg',
 					description:
-						'Проект про важность поддержки братьев наших меньших.',
-					link: 'https://aleksander1802.github.io/online-zoo/pages/main/',
+						'Лендинговая страничка. Презентация греческой рыбной продукции. Импорт/экспорт продукции. Приложение поддерживает 3 языка. Стек: Next.js и Tailwind.',
+					link: 'https://fishmania.vercel.app/',
 				},
 				{
 					title: 'Song bird',
@@ -87,11 +87,11 @@ const workSlides = {
 					link: 'https://github.com/aleksander1802/rsschool-nodejs-task-graphql/pull/1',
 				},
 				{
-					title: 'Home Library Service',
-					path: '/cv/thumb7.jpg',
+					title: 'Online zoo',
+					path: '/cv/thumb3.jpg',
 					description:
-						'Каждый PR содержит часть таска. Необходимо было создать домашнюю музыкальную библиотеку.',
-					link: 'https://github.com/aleksander1802/nodejs2023Q2-service/pulls',
+						'Проект про важность поддержки братьев наших меньших.',
+					link: 'https://aleksander1802.github.io/online-zoo/pages/main/',
 				},
 				{
 					title: 'CRUD API',
