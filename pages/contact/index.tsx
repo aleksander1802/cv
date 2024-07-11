@@ -81,14 +81,14 @@ const Contact = () => {
 						animate="show"
 						exit="hidden"
 						className="flex items-center gap-2 relative cursor-pointer"
-						onClick={() => copyPhoneToClipboard('+7-949-707-20-53')}
+						onClick={() => copyPhoneToClipboard('+7-999-999-99-99')}
 						title="Click to copy"
 					>
 						<BsPhone className="text-accent text-2xl sm:text-3xl" />
 						<p className="text-white">
 							+7-
-							<span className="text-accent font-bold">949</span>
-							-707-20-53
+							<span className="text-accent font-bold">999</span>
+							-999-99-99
 						</p>
 						{copiedPhone && copyText}
 					</motion.div>
